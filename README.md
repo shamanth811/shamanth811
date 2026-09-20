@@ -1,48 +1,56 @@
 # Shamanth N
 
-**AI Engineer in Bengaluru.** I build production LLM systems: retrieval pipelines, multi-agent
-workflows and document understanding, plus the async backends that run them.
+AI Engineer focused on building production LLM systems and intelligent applications that solve real-world problems.
 
-Currently at **VAIA Investment Advisory**, working on due diligence and ESG reporting platforms.
+Currently at **VAIA Investment Advisory**, developing due diligence and ESG reporting platforms powered by AI.
 
-## What I've built
+---
 
-- **Due diligence reporting platform.** Turns uploaded company documents and live market data into
-  analyst-ready reports in under five minutes. Async FastAPI and Celery, Dockerised on AWS, with an
-  iterative retrieve, reason and verify research loop.
-- **ESG and decarbonisation reporting tool.** OCR over billing documents, Scope 1, 2 and 3
-  emissions calculation, and section drafting scored by Gemini and Claude against hybrid
-  retrieval, traced in LangSmith. Figures trace back to source documents through a Neo4j
-  knowledge graph.
-- **[curated10.com](https://curated10.com).** An automated newsletter I built and run: LLM grading
-  and ranking of about 50 articles per category, scheduled on AWS Lambda and EventBridge, delivered
-  through Resend. 300+ subscribers.
-- **ESG reasoning model.** Fine-tuned Qwen3.5-9B with continued pre-training, SFT, DPO and GRPO
-  (LoRA via Unsloth). Accuracy on ESGenius went from 65.45% to 89.7%.
+## What I Build
 
-## Open source
+**LLM-Powered Applications**
+- Retrieval augmented generation (RAG) pipelines
+- - Multi-agent workflows for complex reasoning
+  - - Document understanding and analysis systems
+    - - Async backends and scalable architectures
+     
+      - ---
 
-| Project | What it is |
-|---|---|
-| [**AutoPitch**](https://github.com/shamanth811/autopitch) | Scores VC pitch decks section by section with LangGraph, benchmarks the raise against funding rounds extracted from SEC filings (Pinecone), and predicts investor objections. Gemini 2.5 Pro, Llama 3.1, FastAPI, LangSmith. |
+      ## Recent Projects
 
-## Research
+      **Due Diligence Reporting Platform** — Transforms company documents and market data into analyst-ready reports in under 5 minutes. Built with FastAPI, Celery, and AWS.
 
-- **VAIA Finance Readiness Benchmark**: an evaluation framework for enterprise finance and
-  sustainability LLMs. Co-author; built the domain dataset. Preprint under review.
-- **The Intersection of Art and AI: Innovations in Creative Collaboration**: first author, IEEE
-  ICICAT 2024. [DOI](https://doi.org/10.1109/icicat62666.2024.10923276)
+      **ESG & Decarbonisation Tool** — OCR-based carbon footprint analyzer covering Scope 1, 2, and 3 emissions with an embedded knowledge graph.
 
-## Stack
+      **Curated.io** — Automated newsletter delivering LLM-graded and ranked articles. 300+ subscribers. Runs on AWS Lambda and EventBridge via Resend.
 
-**LLM systems:** LangGraph, LangChain, RAG, tool calling, structured outputs, LLM-as-judge evals  
-**Backend:** Python, FastAPI, Celery, asyncio, Pydantic, SQL, TypeScript  
-**Retrieval & data:** Pinecone, FAISS, hybrid search (BM25 + dense), Neo4j, PostgreSQL, Redis  
-**Cloud & MLOps:** AWS (Lambda, EventBridge, S3, ECS), Docker, CI/CD, LangSmith, Weights & Biases, MLflow  
-**Training:** SFT, DPO, GRPO, LoRA, Unsloth, PyTorch, Hugging Face, vLLM
+      **ESG Reasoning Model** — Fine-tuned Qwen 3.5-9B with continued pre-training using SFT and DPO. Improved accuracy from 65.45% to 89.7% on ESG classification.
 
-## Elsewhere
+      **AutoPitch** — AI-powered VC pitch deck analyzer. Scores and benchmarks investor pitches against funding rounds using LLMs and SEC data.
 
-[LinkedIn](https://www.linkedin.com/in/shamanth-n)
+      ---
 
-B.E. in AI & ML, RNS Institute of Technology.
+      ## Research
+
+      - **VAIA Finance Readiness Benchmark** — Evaluation framework for enterprise finance and sustainability LLMs. Co-authored; preprint under review.
+      - - **The Intersection of Art and AI: Innovations in Creative Collaboration** — IEEE ICICAT 2024. [Publication](https://doi.org/10.1109/icicat62666.2024.10923276)
+       
+        - ---
+
+        ## Tech Stack
+
+        **LLM Frameworks:** LangGraph, LangChain, RAG, tool calling, structured outputs, LLM-as-judge evals
+
+        **Backend:** Python, FastAPI, Celery, asyncio, Pydantic, SQLAlchemy, TypeScript
+
+        **Infrastructure:** AWS (Lambda, EC2, S3), Docker, serverless
+
+        **ML & Data:** Gemini, Claude, Llama, LLaMA 2.5 Pro, LangSmith
+
+        ---
+
+        ## Let's Connect
+
+        - **Email** — [shamanthnagaraj11@gmail.com](mailto:shamanthnagaraj11@gmail.com)
+        - - **LinkedIn** — [shamanth-n](https://linkedin.com/in/shamanth-n)
+          - - **GitHub** — [@shamanth811](https://github.com/shamanth811)
